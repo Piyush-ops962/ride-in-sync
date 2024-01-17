@@ -1,0 +1,32 @@
+/* RideDetails.css */
+
+/* Center the ride details container */
+.ride-details-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style for stops list */
+.stops-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Style for each stop item */
+.stop-item {
+  margin-right: 20px;
+  border-bottom: 2px solid #333; /* Add a line between stops */
+  padding-bottom: 5px; /* Add some spacing between stop name and line */
+}
+
+/* Style for reached stops */
+.stop-reached {
+  color: green;
+  font-weight: bold;
+}
+.btn{
+  margin-top: 10px ;
+  border-radius: 5px;
+}
